@@ -10,6 +10,7 @@ import { AddCartComponent } from './cart/add-cart/add-cart.component';
 import { OrderManagementComponent } from './admin/order-management/order-management.component';
 import { InfoAcountComponent } from './admin/info-acount/info-acount.component';
 import { ResumeComponent } from './admin/resume/resume.component';
+import { WarehouseComponent } from './admin/warehouse/warehouse.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,8 @@ const routes: Routes = [
   { path: 'account/:id', component: InfoAcountComponent, canActivate: [AuthGuard] },
   { path: 'order/:id', component: OrderManagementComponent, canActivate: [AuthGuard] },
   { path: 'cart/:id', component: AddCartComponent, canActivate: [AuthGuard] },
-  { path: 'resume/:id', component: ResumeComponent, canActivate: [AuthGuard] }
+  { path: 'resume/:id', component: ResumeComponent, canActivate: [AuthGuard] },
+  { path: 'warehouse/:id', component: WarehouseComponent, canActivate: [AuthGuard] },
 ];
 
 @NgModule({

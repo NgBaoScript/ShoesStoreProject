@@ -23,6 +23,9 @@ import { InfoAcountComponent } from './admin/info-acount/info-acount.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { ResumeComponent } from './admin/resume/resume.component';
+import { WarehouseComponent } from './admin/warehouse/warehouse.component';
+import {NgxPaginationModule} from "ngx-pagination";
+
 
 @NgModule({
   declarations: [
@@ -41,7 +44,8 @@ import { ResumeComponent } from './admin/resume/resume.component';
     CommentComponent,
     OrderManagementComponent,
     InfoAcountComponent,
-    ResumeComponent
+    ResumeComponent,
+    WarehouseComponent
   ],
   imports: [
     BrowserModule,
@@ -51,6 +55,7 @@ import { ResumeComponent } from './admin/resume/resume.component';
     HttpClientModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    NgxPaginationModule,
     ToastrModule.forRoot()
   ],
   providers: [],

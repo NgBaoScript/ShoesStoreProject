@@ -23,7 +23,8 @@
         <td>{{item.id}}</td>
         <td>{{item.email}}</td>
         <td>{{item.role}}</td>
-        <td [ngStyle]="{'color': FormatColorActive(item.isactive)}"><strong>{{FormatActive(item.isactive)}}</strong></td>
+        <td [ngStyle]="{'color': FormatColorActive(item.isactive)}"><strong>{{FormatActive(item.isactive)}}</strong>
+        </td>
         <td style="text-align: center;">
             <button *ngIf="item.role != 'admin' " type="button" class="btn" data-bs-toggle="modal"
                 data-bs-target="#exampleModal" (click)="openModal(item.id)">

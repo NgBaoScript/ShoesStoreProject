@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Project</title>
@@ -36,18 +37,26 @@
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <style>
-       html {
-    scroll-behavior: smooth;
-  }
-    </style>
+  <!-- Thêm thư viện AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
+
 <body style="background-color: rgb(240, 240, 240);">
   <app-root></app-root>
 
 
   <script>
-    // AOS.init();
+    AOS.init();
   </script>
 </body>
+
 </html>

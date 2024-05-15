@@ -402,7 +402,7 @@
       "id": 7,
       "idSize": 1,
       "idProduct": 2,
-      "quantity": 11
+      "quantity": 9
     },
     {
       "id": 8,
@@ -432,7 +432,7 @@
       "id": 12,
       "idSize": 6,
       "idProduct": 2,
-      "quantity": 12
+      "quantity": 11
     },
     {
       "id": 13,
@@ -927,12 +927,6 @@
   ],
   "cart": [
     {
-      "userId": "admin",
-      "quantityId": "7",
-      "numberOrders": 2,
-      "id": 1
-    },
-    {
       "userId": "baokx12",
       "quantityId": "4",
       "numberOrders": 1,
@@ -966,6 +960,15 @@
       "datePayment": 1712222816332,
       "status": "0",
       "id": 4
+    },
+    {
+      "userId": "admin",
+      "phone": "5555",
+      "address": "5555",
+      "note": "666",
+      "datePayment": 1712560496680,
+      "status": "0",
+      "id": 5
     }
   ],
   "history": [
@@ -1010,6 +1013,20 @@
       "numberOrders": 2,
       "infoId": 4,
       "id": 6
+    },
+    {
+      "userId": "admin",
+      "quantityId": "7",
+      "numberOrders": 2,
+      "infoId": 5,
+      "id": 7
+    },
+    {
+      "userId": "admin",
+      "quantityId": "12",
+      "numberOrders": 1,
+      "infoId": 5,
+      "id": 8
     }
   ]
 }

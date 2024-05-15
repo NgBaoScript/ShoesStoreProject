@@ -28,7 +28,6 @@ export class WarehouseComponent implements OnInit {
 
     this.saleProductService.getAllSale().subscribe(data =>{
       this.saleList = data;
-      console.log(this.saleList)
     })
   }
 

@@ -25,6 +25,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { ResumeComponent } from './admin/resume/resume.component';
 import { WarehouseComponent } from './admin/warehouse/warehouse.component';
 import {NgxPaginationModule} from "ngx-pagination";
+import { EditProductComponent } from './admin/edit-product/edit-product.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import {NgxPaginationModule} from "ngx-pagination";
     OrderManagementComponent,
     InfoAcountComponent,
     ResumeComponent,
-    WarehouseComponent
+    WarehouseComponent,
+    EditProductComponent
   ],
   imports: [
     BrowserModule,

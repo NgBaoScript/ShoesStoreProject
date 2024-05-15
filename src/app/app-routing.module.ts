@@ -11,6 +11,7 @@ import { OrderManagementComponent } from './admin/order-management/order-managem
 import { InfoAcountComponent } from './admin/info-acount/info-acount.component';
 import { ResumeComponent } from './admin/resume/resume.component';
 import { WarehouseComponent } from './admin/warehouse/warehouse.component';
+import { EditProductComponent } from './admin/edit-product/edit-product.component';
 
 
 const routes: Routes = [
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'cart/:id', component: AddCartComponent, canActivate: [AuthGuard] },
   { path: 'resume/:id', component: ResumeComponent, canActivate: [AuthGuard] },
   { path: 'warehouse/:id', component: WarehouseComponent, canActivate: [AuthGuard] },
+  { path: 'edit-product/:id1/:id', component: EditProductComponent, canActivate: [AuthGuard] },
 ];
 
 @NgModule({

@@ -98,6 +98,24 @@
       "email": "1231@gmail.xom",
       "role": "user",
       "isactive": true
+    },
+    {
+      "id": "baokx123",
+      "firstname": "abc",
+      "name": "abc",
+      "password": "Baokx12@",
+      "email": "aaokx12@gmail.com",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "1231344",
+      "firstname": "Bao",
+      "name": "Bao",
+      "password": "Baokx12@",
+      "email": "baokx12@gmail.com",
+      "role": "user",
+      "isactive": true
     }
   ],
   "role": [
